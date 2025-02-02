@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
-$dbname = 'texagigc_event_management';
-$username = 'texagigc_sam';
-$password = 'texagigc_sam';
+$dbname = 'event_management';
+$username = 'root';
+$password = '';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
